@@ -1,35 +1,3 @@
-%   ECGDEMO    ECG PROCESSING DEMONSTRATION - R-PEAKS DETECTION
-%              
-%   NOTE: Surya modified the code by adding Heart Rate calculation  and
-%         some additional comments. Contact: p.surya1994@gmail.com  
-%         
-%
-%              This file is a part of a package that contains 5 files:
-%
-%                     1. ecgdemo.m - (this file) main script file;
-%                     2. ecgdemowinmax.m - window filter script file;
-%                     3. ecgdemodata1.mat - first ecg data sample;
-%                     4. ecgdemodata2.mat - second ecg data sample;
-%                     5. readme.txt - description.
-%
-%              The package downloaded from http://www.librow.com
-%              To contact the author of the sample write to Sergey Chernenko:
-%              S.Chernenko@librow.com
-%
-%              To run the demo put
-%
-%                     ecgdemo.m;
-%                     ecgdemowinmax.m;
-%                     ecgdemodata1.mat;
-%                     ecgdemodata2.mat
-%
-%              in MatLab's "work" directory, run MatLab and type in
-%
-%                     >> ecgdemo
-%
-%              The code is property of LIBROW
-%              You can use it on your own
-%              When utilizing credit LIBROW site
 
 %   We are processing two data samples to demonstrate two different situations
 for demo = 1:2:3
